@@ -1,7 +1,13 @@
+import Footer from "./component/Footer/Footer";
+import Header from "./component/Header/Header";
+import HeroSection from "./component/Hero/HeroSection";
+
 export default function App() {
   return (
     <>
-      <h1 className="text-pretty text-amber-600">Hello</h1>
+      <Header />
+      <HeroSection />
+      <Footer />
     </>
   );
 }
